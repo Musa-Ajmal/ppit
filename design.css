@@ -1,0 +1,51 @@
+div {
+border: 1px solid red;
+}
+#player1_panel,#player2_panel {
+
+width: 20%;
+height: 100%;
+}
+#p1_teamholder,#p2_teamholder{
+margin-top: 50%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap:0.1px;
+
+}
+#main_panel{
+
+    width: 73%;
+}
+#bottom-container{
+
+    width: 65vw;
+    height: 42vh;
+}
+#upper_visual{
+    width: 65vw;
+    height: 55vh;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+#player2_panel {
+transform: translateX(1%);
+}
+#team_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+#chat_panel{
+    width:50vw;
+    height: 60vh;
+    
+    margin-left:75%;
+
+}
+
+img{
+    size: 1px;
+}
